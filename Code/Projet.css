@@ -1,0 +1,89 @@
+body{
+    background:url(image/Background/abyss.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 1000px;
+}
+
+#Images{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Heros{
+    position: relative;
+    height: 700px;
+    width: 1000px;
+    padding-left: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Monstre{
+    position: absolute;
+    padding-top: 200px;
+    display: flex;
+    padding-left: 2000px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#Texte{
+    background:url(image/Dialogue/Boîte_de_dialogue.png) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 30%;
+    padding-right: 200px;
+}
+
+#Attaque{
+    padding-left: 120px;
+}
+
+#Attaque_speciale{
+    padding-left: 120px;
+}
+
+#montour{
+    padding-left: 120px;
+}
+
+#Attaque:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+
+#Attaque_speciale:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.infocachée{
+    visibility: hidden;
+    border: solid white 3px;
+    background: rgba(63, 156, 209, 0.438);
+    position: absolute;
+    top : 0px;
+    left : 70px;
+}
+
+.hero{
+    position: relative; 
+}
+.hero:hover .infocachée{
+    visibility: visible;
+}
+
+.monstre{
+    position: relative;
+}
+.monstre:hover .infocachée{
+    visibility: visible;
+}
+

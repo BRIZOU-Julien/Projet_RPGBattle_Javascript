@@ -1,0 +1,102 @@
+presse papier 
+
+js
+
+function coloriageAttaque() {
+    document.getElementById("Attaque").style.color = "red";
+}
+
+function coloriageAttaqueSpeciale() {
+    document.getElementById("Attaque_speciale").style.color = "red";
+}
+
+css 
+
+
+#pvassassin{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    color: black;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.assassin{
+    position:relative;
+}
+
+.assassin:hover #pvassassin{
+    visibility: visible;
+}
+
+#pvtireur{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    color: black;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.tireur{
+    position:relative;
+}
+
+.tireur:hover #pvtireur{
+    visibility: visible;
+}
+
+#pvmage{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    color: black;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.mage{
+    position:relative;
+}
+
+.mage:hover #pvmage{
+    visibility: visible;
+}
+
+#pvguerrier{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    color: black;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+.guerrier{
+    position:relative;
+}
+
+.guerrier:hover #pvguerrier{
+    visibility: visible;
+}
